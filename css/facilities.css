@@ -45,3 +45,91 @@ header p {
     margin-bottom: 30px;
   }
 }
+
+.facilities__header {
+  text-transform: uppercase;
+  color: #505050;
+  font-size: 32px;
+  margin-top: 3rem;
+  padding: 0 10%;
+  font-weight: 700;
+}
+.facilities__summary {
+  padding: 0 10%;
+  margin: 2rem 0;
+  font-size: 14px;
+  line-height: 170.8%;
+  color: #505050;
+}
+.facilities {
+  padding: 0 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 2rem;
+  margin-bottom: 4rem;
+}
+.facility {
+  height: 310px;
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  max-width: 230px;
+}
+.facility p{
+  margin-bottom: 3rem;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 128.3%;
+  color: #ffffff;
+}
+
+.facility--gym {
+  background: url(.jpg), #C4C4C4;
+}
+.facility--pool {
+  background: url(.jpg), #C4C4C4;
+}
+.facility--concierge {
+  background: url(.jpg), #C4C4C4;
+}
+.facility--room-service {
+  background: url(.jpg), #C4C4C4;
+}
+.facility--house-keeping {
+  background: url(.jpg), #C4C4C4;
+}
+.facility--valet {
+  background: url(.jpg), #C4C4C4;
+}
+.facility--bar {
+  background: url(.jpg), #C4C4C4;
+}
+.facility--sport-center {
+  background: url(.jpg), #C4C4C4;
+}
+.facility--wifi {
+  background: url(.jpg), #C4C4C4;
+}
+.facility--casino {
+  background: url(.jpg), #C4C4C4;
+}
+.facility--spa {
+  background: url(.jpg), #C4C4C4;
+}
+.facility--security {
+  background: url(.jpg), #C4C4C4;
+}
+
+
+@media (max-width: 778px) {
+  .facilities {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 560px){
+  .facilities {
+    grid-template-columns: 1fr;
+  }
+}
