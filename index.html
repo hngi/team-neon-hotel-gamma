@@ -11,15 +11,17 @@
   <title>Team Neon-Gamma</title>
 </head>
 <body>
+  <div class="backdrop"></div>
   <header id='header'>
-    <nav>
+    <button id="side-menu-toggle">Menu</button>
+    <nav id="main-nav">
       <img src="./images/bandb-footer.svg" alt="logo">
       <div class="navigations">
         <ul>
           <li><a href="">Home</a></li>
-          <li>Rooms</li>
-          <li>Facilities</li>
-          <li>Contact Us</li>
+          <li><a href="./rooms-and-rates.html">Rooms</a></li>
+          <li><a href="./facilities.html">Facilities</a></li>
+          <li><a href="./contact-us.html">Contact Us</a></li>
           <li>Book Now</li>
         </ul>
       </div>
@@ -28,6 +30,28 @@
         <span>Nigeria</span>
       </div>
     </nav>
+
+    <nav class="mobile-nav">
+      <img src="./images/bandb-footer.svg" alt="logo">
+      <div class="navigations">
+        <ul class="mobile-nav__item-list">
+          <li class="mobile-nav__item"><a href="">Home</a></li>
+          <li class="mobile-nav__item"><a href="./rooms-and-rates.html">Rooms</a></li>
+          <li class="mobile-nav__item"><a href="./facilities.html">Facilities</a></li>
+          <li class="mobile-nav__item"><a href="./contact-us.html">Contact Us</a></li>
+          <li class="mobile-nav__item">Book Now</li>
+        </ul>
+      </div>
+      <div>
+        <img src="./images/map-pin.svg" alt="">
+        <span>Nigeria</span>
+      </div>
+    </nav>
+
+  
+
+
+
     <div class="header-text">
       <h1>Welcome To B&B</h1>
       <p>Book your stay at the B&B Hotel Groups, with the most affordable rates at our many locations</p>

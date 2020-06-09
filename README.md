@@ -1,4 +1,4 @@
-# team-neon-delta
+# team-neon-Gamma
 
 
 How to Contribute

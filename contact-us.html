@@ -11,15 +11,17 @@
   <title>Contact Us</title>
 </head>
 <body>
+  <div class="backdrop"></div>
   <header id='header'>
-    <nav>
+    <button id="side-menu-toggle">Menu</button>
+    <nav id="main-nav">
       <img src="./images/bandb-footer.svg" alt="logo">
       <div class="navigations">
         <ul>
-          <li><a href="">Home</a></li>
-          <li>Rooms</li>
-          <li>Facilities</li>
-          <li>Contact Us</li>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./rooms-and-rates.html">Rooms</a></li>
+          <li><a href="./facilities.html">Facilities</a></li>
+          <li><a href="">Contact Us</a></li>
           <li>Book Now</li>
         </ul>
       </div>
@@ -28,6 +30,26 @@
         <span>Nigeria</span>
       </div>
     </nav>
+
+
+    <nav class="mobile-nav">
+      <img src="./images/bandb-footer.svg" alt="logo">
+      <div class="navigations">
+        <ul class="mobile-nav__item-list">
+          <li class="mobile-nav__item"><a href="./index.html">Home</a></li>
+          <li class="mobile-nav__item"><a href="./rooms-and-rates.html">Rooms</a></li>
+          <li class="mobile-nav__item"><a href="./facilities.html">Facilities</a></li>
+          <li class="mobile-nav__item"><a href="">Contact Us</a></li>
+          <li class="mobile-nav__item">Book Now</li>
+        </ul>
+      </div>
+      <div>
+        <img src="./images/map-pin.svg" alt="">
+        <span>Nigeria</span>
+      </div>
+    </nav>
+
+
     <div class="header-text">
       <h1>Always Ready To Help</h1>
       <p>Our support team are always working around the clock 24/7 to make sure you have an 
@@ -89,5 +111,7 @@
     </div>
     
   </footer>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
