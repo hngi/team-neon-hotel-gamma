@@ -37,3 +37,122 @@ header p {
   width: 600px;
   max-width: 100%;
 }
+
+.rooms {
+  background: #ffff !important;
+  width: 100%;
+  min-height: 100vh;
+  margin-top: 2rem;
+  border-top-width: 10px;
+  background-attachment: fixed;
+}
+
+
+/* Card */
+.rooms{
+  margin-bottom: 2rem;
+}
+.rooms-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.cardbody {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  min-height: 60vh;
+  font-family: arial;
+  margin: 30px 20px;
+  background-color: #ffff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+  
+}
+
+.cardbody:hover {
+  box-shadow: 10px 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.room-para {
+  font-size: 14px;
+  padding: 0px 20px;
+  color: #333;
+  line-height: 1.5rem;
+  margin-top: 20px;
+  font-family: 'Inter', sans-serif;
+}
+
+/* image */
+.maths {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* heading-three */
+ .heading-three {
+  padding: 0px 20px;
+  color: #333;
+  font-family: 'Inter', sans-serif;
+  font-size: 27px;
+  padding-top: 1rem;
+  font-weight: 500;
+}
+
+.ROOMS{
+  width: 85%;
+  height: 20vh;
+  margin: auto;
+  margin-top: 2rem;
+}
+.ROOMS h1{
+  color: #333;
+  font-size: 27px;
+}
+
+.ROOMS p{
+  width: 40%;
+  line-height: 2rem;
+  
+}
+
+.cardbody span{
+  padding: 0px 20px;
+  color: #e5e5e5;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.cardbody .book{
+  margin-top: 10px;
+  padding: 0px 20px;
+  color: #0466c8;
+  font-family: 'Inter', sans-serif;
+}
+
+
+@media screen and (max-width: 800px){
+
+  .rooms{
+    width: 100%;
+    margin-top: 2rem;
+    border-top-width: 10px;
+  }
+  .rooms-bg{
+    flex-direction: column;
+  }
+
+  .ROOMS{
+    width: 70%;
+    line-height: normal;
+  }
+
+  .ROOMS p{
+    width: 80%;
+    line-height: 1rem;
+    
+  }
+}
