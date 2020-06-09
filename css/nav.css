@@ -1,0 +1,47 @@
+nav {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  width: 100%;
+  padding: 30px 10%;
+  align-items: center;
+  
+}
+
+.navigations {
+  width: 600px;
+  max-width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+nav ul li {
+  letter-spacing: -0.015em;
+  text-transform: capitalize;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 128.3%;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: #339AF9
+}
+
+@media (max-width: 400px) {
+  nav {
+    
+  }
+}
