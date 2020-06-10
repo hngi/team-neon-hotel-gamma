@@ -8,9 +8,18 @@ nav {
   
 }
 
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
 .navigations {
   width: 600px;
   max-width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 nav ul {
@@ -18,7 +27,7 @@ nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+  margin-bottom: 0 !important;
 }
 
 nav ul li {
@@ -32,9 +41,10 @@ nav ul li {
 }
 
 ul li a {
-  text-decoration: none;
+  text-decoration: none !important;
   color: white;
 }
+
 
 
 nav ul li a:hover {
@@ -78,10 +88,11 @@ nav ul li a:hover {
   text-decoration: none;
   color: black;
   font-size: 1.5rem;
-  padding: 0.5rem 1.4rem;
+  padding: 0.5rem 1rem;
   background: transparent;
   border: none;
   cursor: pointer;
+  width: 100%;
 }
 
 .mobile-nav__item a:active,
