@@ -91,3 +91,18 @@ footer .sub-container {
     margin-top: 30px;
   }
 }
+
+@media (max-width: 500px) {
+  footer section div {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  footer section div li {
+    font-size: 16px;
+  }
+
+  footer section div h5 {
+    font-size: 22px;
+  }
+}
