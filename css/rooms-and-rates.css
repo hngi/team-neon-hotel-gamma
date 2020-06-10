@@ -56,7 +56,9 @@ header p {
   display: flex;
   align-items: center;
   justify-content: center;
-  
+  margin: 0 auto;
+  max-width: 100%;
+  padding-left: 20px;
 }
 
 .change {
@@ -107,7 +109,6 @@ header p {
 
 .ROOMS{
   width: 85%;
-  height: 20vh;
   margin: auto;
   margin-top: 2rem;
 }
@@ -135,12 +136,13 @@ header p {
   font-family: Inter;
 }
 
-.cardbody span{
+.cardbody .span{
   padding: 0px 20px;
   color: #b3b0b0;
   font-family: 'Inter', sans-serif;
   font-size: 13px;
   font-weight: 500;
+  width: 100%;
 }
 
 .cardbody .book{
@@ -168,8 +170,12 @@ header p {
   }
 
   .ROOMS p{
-    width: 80%;
+    width: 100%;
     line-height: 1.4rem;
     color: #8A8A8A;
+  }
+
+  .rooms-bg {
+    padding-left: 0px;
   }
 }
