@@ -8,6 +8,13 @@ nav {
   
 }
 
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
 .navigations {
   width: 600px;
   max-width: 100%;
@@ -18,7 +25,7 @@ nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+  margin-bottom: 0 !important;
 }
 
 nav ul li {
@@ -32,9 +39,10 @@ nav ul li {
 }
 
 ul li a {
-  text-decoration: none;
+  text-decoration: none !important;
   color: white;
 }
+
 
 
 nav ul li a:hover {
